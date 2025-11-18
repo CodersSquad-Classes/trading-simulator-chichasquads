@@ -10,8 +10,7 @@ On this challenge, you're implementing a Continuos Limit Order Book (CLOB). Buye
 
 ## How to build and run
 
-_ADD YOUR INSTRUCTIONS HERE_
-
+To build and run the simulator, you need a C++20 compiler, make, and a terminal that supports ANSI escape codes. From the root folder of the repository, simply run make to compile the source files located in the Trading/ directory. This generates the executable trading_simulator.exe. Once the build is complete, you can start the simulation by running make run, which is a shortcut defined in the Makefile that automatically compiles the project and immediately executes the program, saving you from typing both make and ./trading_simulator.exe separately. The simulator prints new orders and updates the order book in real time; you can stop it at any moment by pressing Ctrl + C.
 
 ## Deliverables
 
