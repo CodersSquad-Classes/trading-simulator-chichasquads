@@ -37,7 +37,7 @@ This simulator applies these rules in a smaller and more educational way.
 
 ## Software Design and Implementation
 
-### Code Structure
+# Code Structure
 
 The project is divided into three main components:
 
@@ -50,7 +50,7 @@ The project is divided into three main components:
 - `MatchingEngine`  
   Manages multiple order books, generates order IDs, and triggers the matching process.
 
-### Matching Logic
+# Matching Logic
 
 Whenever a new order arrives:
 
@@ -64,7 +64,7 @@ Whenever a new order arrives:
 
 This creates a realistic continuous matching flow.
 
-### Terminal Real-Time UI
+# Terminal Real-Time UI
 
 The live terminal view includes:
 
@@ -75,7 +75,7 @@ The live terminal view includes:
 
 It’s a simple dashboard, but it gives the feeling of watching a small exchange in action.
 
-### Key Functions
+# Key Functions
 
 - `addOrder()`  
   Creates a new order and inserts it in the right place.
@@ -93,13 +93,13 @@ The logic of the engine and the UI is intentionally kept separate to make the co
 
 ## How to Build and Run
 
-### Requirements
+# Requirements
 
 - C++20 compiler (clang++ recommended)  
 - make installed  
 - A terminal that supports ANSI color codes (PowerShell, Git Bash, VSCode Terminal)
 
-### Project Structure
+# Project Structure
 
 trading-simulator-chichasquads
 -Trading
