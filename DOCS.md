@@ -1,4 +1,4 @@
-# Continuous Limit Order Book — Trading Simulator
+### Continuous Limit Order Book — Trading Simulator
 
 Luis Emilio Arce Ruvalcaba / A01647064
 Marcial Becerra Rodríguez /A01646589
